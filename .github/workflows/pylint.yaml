@@ -7,5 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install python-docx pylint
-      - run: python -v
+      - run: python --version
       - run: pylint *.py

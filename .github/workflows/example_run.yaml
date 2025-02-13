@@ -1,0 +1,12 @@
+name: example_run
+run-name: example_run
+on: [push]
+jobs:
+  examplejob:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install python-docx
+      - run: python --version
+      - run: python json2docxtemplater_cli.py -h
+      - run: python json2docxtemplater_cli.py example_content.json example_template.docx -O ./
