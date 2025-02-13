@@ -1,5 +1,5 @@
 # json2docx-templater
-![pylint workflow](https://github.com/minger0/json2docx-templater/workflows/pylint.yml/badge.svg) ![example workflow](https://github.com/minger0/json2docx-templater/actions/workflows/example_run.yml/badge.svg)
+![pylint workflow](https://github.com/minger0/json2docx-templater/actions/workflows/pylint.yml/badge.svg) ![example workflow](https://github.com/minger0/json2docx-templater/actions/workflows/example_run.yml/badge.svg)
 ```
 Usage: python json2docxtemplater_cli.py -h
 ```
