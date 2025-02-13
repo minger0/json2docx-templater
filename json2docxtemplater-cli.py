@@ -1,4 +1,4 @@
-'''Usage: python json2docxtemplater-cli.py -h'''
+'''Usage: python json2docxtemplater_cli.py -h'''
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import json2docxtemplater as t
 
