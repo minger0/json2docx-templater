@@ -113,7 +113,7 @@ class Json2docx():
                                 localcontent = content
                                 heading += " (no content match)"
                             else:
-                                ValueError(f"more prefix matches for heading, '{heading}', in content file, '{contentfile}'")
+                                raise ValueError(f"more prefix matches for heading, '{heading}', in content file, '{contentfile}'")
 
                         self.replace_content(block, localcontent)
                         tablelistconfig = []
